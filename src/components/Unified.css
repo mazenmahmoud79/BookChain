@@ -1,0 +1,90 @@
+/* Common styles for both Admin and Booking components */
+
+/* General container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  .header, .booking-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .header .logo, .booking-header .logo {
+    width: 150px;
+  }
+  
+  /* Form styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: #6a0dad; /* Purple color */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #33066b; /* Darker purple on hover */
+  }
+  
+  /* Specific styles for admin panel */
+  .admin-container {
+    max-width: 800px;
+  }
+  
+  .update-match-button {
+    background-color: #4caf50; /* Green color */
+  }
+  
+  .update-match-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Specific styles for booking form */
+  .booking-container {
+    max-width: 600px;
+  }
+  
+  .booking-header h1 {
+    color: #6a0dad; /* Purple color */
+    margin-bottom: 2rem;
+  }
+  
+  .booking-form input {
+    margin-bottom: 1.5rem;
+  }
+  

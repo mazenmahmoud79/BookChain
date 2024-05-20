@@ -1,0 +1,37 @@
+/* src/components/EventIcons.css */
+.event-icons-container {
+    display: flex;
+    flex-direction: column; /* Changed to column for vertical alignment */
+    align-items: center;
+    justify-content: center; /* Added for vertical centering */
+    height: 100%;
+    padding: 0px;
+  }
+  
+  .event-icon {
+    display: flex;
+    flex-direction: column; /* Changed to column for vertical alignment of icon and text */
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    padding: 50px 0; /* Changed to add padding only to the top and bottom */
+    margin-bottom: 100px;
+  }
+  
+  .event-icon-image {
+    max-width: 100%;
+    height: auto; /* Changed to maintain aspect ratio */
+  }
+  
+  .event-icon p {
+    margin-top: 20px; /* Added to create space between the icon and the text */
+  }
+  
+  .events-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: purple;
+    text-decoration: none;
+  }
+  
